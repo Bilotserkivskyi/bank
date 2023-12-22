@@ -1,0 +1,7 @@
+.transaction-name {
+  font-weight: medium;
+  font-size: 16px;
+  color: #1d1d1f;
+  width: fit-content;
+  height: min-content;
+}

@@ -1,0 +1,17 @@
+.signup-confirm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+
+  gap: 8px;
+}
+
+.link {
+  padding-left: 12px;
+}
+
+.link-button {
+  color: #775ce5;
+  margin-left: 12px;
+}

@@ -1,0 +1,127 @@
+.balance-page {
+  background-image: url("../../../public/img/header_img.png");
+
+  border-radius: 32px 32px 0 0;
+  width: 100%;
+  height: 200px;
+}
+
+.buttons-round {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.button-label {
+  color: #1d1d1f;
+  font-size: 14px;
+}
+.balance-sceleton {
+  height: 34px;
+  width: 100px;
+  margin: auto;
+}
+
+/* .balance-sceleton-block {
+  display: grid;
+  gap: 40px;
+  margin-top: 20px;
+} */
+.balance-sceleton-height {
+  height: 46px;
+}
+
+.transaction-list {
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+.transaction-amount__sending {
+  color: #26bf80;
+}
+
+.transaction-amount__receipt {
+  color: #1d1d1f;
+}
+
+.transaction-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition-property: opacity;
+  transition-duration: 0.7s;
+  background-color: white;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.transaction-list-item:hover {
+  opacity: 0.7;
+}
+
+.transaction-list-item__icon {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  border-radius: 96px;
+  background: white;
+}
+
+.transaction-list-item__title {
+  text-align: left;
+
+  color: #1d1d1f;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.transaction-list-item__hero {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.transaction-list-item__info {
+  color: #939199;
+  text-align: center;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.transaction-list-item__info > span:last-child::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #939199;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0px 6px 3px 0px;
+}
+
+.transaction__summ {
+  color: #1d1d1f;
+  text-align: center;
+  font-size: 16px;
+  font-style: medium;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.transaction__summ--recive {
+  color: #26bf80;
+}
+
+.transaction__summ--send {
+  color: #1d1d1f;
+}

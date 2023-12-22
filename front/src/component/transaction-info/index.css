@@ -1,0 +1,15 @@
+.transaction-info {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.transaction-label {
+  font-size: 14px;
+}
+
+.transaction-value {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,17 @@
+.transaction-time {
+  font-weight: regular;
+  font-size: 12px;
+  color: #939199;
+  width: fit-content;
+}
+
+.transaction-time::after {
+  content: "";
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 3px;
+  height: 3px;
+  width: 3px;
+  background-color: #939199;
+  border-radius: 3px;
+}

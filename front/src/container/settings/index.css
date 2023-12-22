@@ -1,0 +1,38 @@
+.settings-page {
+  border-radius: 32px 32px;
+  width: 100%;
+
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  gap: 20px;
+  min-height: 400px;
+}
+
+.settings-heading {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: baseline;
+  padding-left: 4px;
+  padding-top: 4px;
+}
+
+.email-section {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.password-section {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.logout-button {
+  margin-top: 12px;
+}

@@ -1,0 +1,135 @@
+/* .transaction-item {
+  background-color: white;
+
+  border-radius: 8px;
+
+  height: 72px;
+
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px;
+} */
+
+.balance__transaction {
+  text-decoration: none;
+  width: 353px;
+  transition: opacity 0.7;
+  cursor: pointer;
+}
+
+.transaction {
+  display: flex;
+  width: 353px;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 12px;
+  background-color: white;
+  padding: 6px;
+}
+
+.transaction__info {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.transaction__img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: var(--BG-2, #f7f7f7);
+}
+
+.transaction__data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.transaction__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.transaction__agent-name {
+  color: var(--Black, #1d1d1f);
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.transaction__time {
+  color: var(--Grey-text, #939199);
+  text-align: center;
+  font-family: Jost;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.transaction__type {
+  color: var(--Grey-text, #939199);
+  text-align: center;
+  font-family: Jost;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.transaction__amount {
+  color: var(--Green, #24b277);
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.cents {
+  font-weight: 400;
+  color: var(--Grey-text, #939199);
+}
+
+.plus {
+  color: var(--Green, #24b277);
+}
+
+.plus::before {
+  content: "+$";
+  color: var(--Green, #24b277);
+}
+
+.plus span:last-child {
+  color: var(--Green, #24b277);
+}
+
+.minus {
+  color: var(--Black, #1d1d1f);
+}
+
+.minus::before {
+  content: "-$";
+  color: var(--Black, #1d1d1f);
+}

@@ -1,0 +1,27 @@
+/* .button {
+  padding-top: 16px;
+} */
+
+.button-logout {
+  color: #f23152;
+  background-color: white;
+  border-radius: 12px;
+  border: solid 1px;
+  width: 333px;
+  height: 46px;
+
+  transition: opacity 0.4s;
+}
+
+.button-logout:hover {
+  opacity: 0.7;
+}
+
+.button-logout:active {
+  opacity: 0.3;
+}
+
+.button-logout:disabled {
+  cursor: default;
+  opacity: 0.7 !important;
+}

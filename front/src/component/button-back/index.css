@@ -1,0 +1,21 @@
+.button-back {
+  width: 20px;
+  height: 20px;
+
+  padding: 48px 16px;
+
+  transition: opacity 0.4s;
+}
+
+.button-back:hover {
+  opacity: 0.7;
+}
+
+.button-back:active {
+  opacity: 0.3;
+}
+
+.button-back:disabled {
+  cursor: default;
+  opacity: 0.7 !important;
+}

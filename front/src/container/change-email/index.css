@@ -1,0 +1,10 @@
+.email-section {
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title-section {
+  margin-left: 12px;
+}

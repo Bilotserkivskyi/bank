@@ -1,0 +1,37 @@
+.button {
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.button-dark {
+  color: white;
+  background-color: #775ce5;
+  border-radius: 12px;
+  width: 333px;
+  height: 46px;
+
+  transition: opacity 0.4s;
+}
+
+.button-dark:hover {
+  opacity: 0.7;
+}
+
+.button-dark:active {
+  opacity: 0.3;
+}
+
+.button-dark:disabled {
+  cursor: default;
+  opacity: 0.7 !important;
+}
+
+.button-dark--disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.button--disabled {
+  opacity: 0.5;
+  cursor: default;
+}

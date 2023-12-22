@@ -1,0 +1,17 @@
+.transaction-amount {
+  font-weight: bold;
+  font-size: 16px;
+  color: #24b277;
+}
+
+.transaction-amount__sending {
+  font-weight: bold;
+  font-size: 16px;
+  color: #26bf80;
+}
+
+.transaction-amount__receipt {
+  font-weight: bold;
+  font-size: 16px;
+  color: gray;
+}
